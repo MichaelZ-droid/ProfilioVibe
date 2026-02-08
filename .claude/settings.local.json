@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude skills install:*)",
+      "Bash(test:*)",
+      "Bash(set CLAUDE_CODE_GIT_BASH_PATH=F:Gitusrbinbash.exe)",
+      "Bash(setx CLAUDE_CODE_GIT_BASH_PATH \"F:\\\\Git\\\\usr\\\\bin\\\\bash.exe\")",
+      "Bash(cmd /c \"set CLAUDE_CODE_GIT_BASH_PATH=F:\\\\Git\\\\usr\\\\bin\\\\bash.exe && claude skills install prd-doc-writer\")",
+      "Bash(\"F:\\\\Git\\\\usr\\\\bin\\\\bash.exe\" -c \"claude skills install prd-doc-writer\")"
+    ]
+  }
+}
